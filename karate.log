@@ -1,0 +1,118 @@
+17:29:54.138 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0x6c6ef8e6] REGISTERED
+17:29:54.172 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0x6c6ef8e6] BIND: 0.0.0.0/0.0.0.0:8080
+17:29:54.181 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0x6c6ef8e6, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+17:29:54.179 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+17:32:57.610 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5] REGISTERED
+17:32:57.618 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5] BIND: 0.0.0.0/0.0.0.0:8080
+17:32:57.624 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+17:32:57.623 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+17:33:05.968 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xbb0b4e12, L:/127.0.0.1:8080 - R:/127.0.0.1:43864]
+17:33:05.971 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:33:06.458 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+17:33:06.473 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+17:33:07.058 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xc2769d05, L:/127.0.0.1:8080 - R:/127.0.0.1:43866]
+17:33:07.060 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:33:07.085 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+17:33:07.087 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+17:33:07.102 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+17:33:07.116 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+17:33:07.117 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: (empty)
+17:33:07.221 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x5d1d08fe, L:/127.0.0.1:8080 - R:/127.0.0.1:43868]
+17:33:07.223 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:33:07.693 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+17:33:07.695 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+17:33:07.696 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+17:33:07.697 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+17:33:07.698 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: (empty)
+17:34:39.033 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xac5de2be, L:/127.0.0.1:8080 - R:/127.0.0.1:43886]
+17:34:39.034 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:34:39.063 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+17:35:35.128 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x97bf8855, L:/127.0.0.1:8080 - R:/127.0.0.1:43888]
+17:35:35.129 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xf8c743f5, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:35:35.238 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+17:35:35.240 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+17:47:47.316 [main] WARN  com.intuit.karate.netty.Main - ssl requested, but cert.pem and/or key.pem not found in working directory, will create
+17:47:52.599 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c] REGISTERED
+17:47:52.603 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c] BIND: 0.0.0.0/0.0.0.0:8080
+17:47:52.610 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - https://127.0.0.1:8080
+17:47:52.613 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+17:49:08.379 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x4a721171, L:/127.0.0.1:8080 - R:/127.0.0.1:43978]
+17:49:08.402 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:10.258 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x4fc28c99, L:/127.0.0.1:8080 - R:/127.0.0.1:43984]
+17:49:10.259 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:10.270 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xe699bd70, L:/127.0.0.1:8080 - R:/127.0.0.1:43986]
+17:49:10.271 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:10.293 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x10644bd4, L:/127.0.0.1:8080 - R:/127.0.0.1:43988]
+17:49:10.296 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:10.302 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xef7ae50b, L:/127.0.0.1:8080 - R:/127.0.0.1:43990]
+17:49:10.307 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:10.315 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xc488fba3, L:/127.0.0.1:8080 - R:/127.0.0.1:43992]
+17:49:10.317 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:10.337 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x1bb5beaa, L:/127.0.0.1:8080 - R:/127.0.0.1:43994]
+17:49:10.339 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:10.352 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xd9c02f56, L:/127.0.0.1:8080 - R:/127.0.0.1:43996]
+17:49:10.354 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:10.363 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x28614931, L:/127.0.0.1:8080 - R:/127.0.0.1:43998]
+17:49:10.364 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:10.374 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xc1eeffc8, L:/127.0.0.1:8080 - R:/127.0.0.1:44000]
+17:49:10.375 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:13.357 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x8e3048b2, L:/127.0.0.1:8080 - R:/127.0.0.1:44002]
+17:49:13.357 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:13.439 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x7936de87, L:/127.0.0.1:8080 - R:/127.0.0.1:44004]
+17:49:13.440 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:13.448 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x91f91887, L:/127.0.0.1:8080 - R:/127.0.0.1:44006]
+17:49:13.453 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:13.454 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xc408ae51, L:/127.0.0.1:8080 - R:/127.0.0.1:44008]
+17:49:13.455 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:13.469 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xa29a25ab, L:/127.0.0.1:8080 - R:/127.0.0.1:44010]
+17:49:13.469 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:13.474 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xa89650cb, L:/127.0.0.1:8080 - R:/127.0.0.1:44012]
+17:49:13.476 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:13.480 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x83fb9628, L:/127.0.0.1:8080 - R:/127.0.0.1:44014]
+17:49:13.481 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:13.491 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x7d78f477, L:/127.0.0.1:8080 - R:/127.0.0.1:44016]
+17:49:13.493 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:13.501 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x7e9dc4db, L:/127.0.0.1:8080 - R:/127.0.0.1:44018]
+17:49:13.503 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:13.513 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x29b37456, L:/127.0.0.1:8080 - R:/127.0.0.1:44020]
+17:49:13.514 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:17.190 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x39436a12, L:/127.0.0.1:8080 - R:/127.0.0.1:44022]
+17:49:17.191 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:23.095 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xea976d19, L:/127.0.0.1:8080 - R:/127.0.0.1:44024]
+17:49:23.096 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:23.186 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xef2e91ab, L:/127.0.0.1:8080 - R:/127.0.0.1:44026]
+17:49:23.186 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:23.191 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xba9dcaaf, L:/127.0.0.1:8080 - R:/127.0.0.1:44028]
+17:49:23.194 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:23.205 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x55c8df1b, L:/127.0.0.1:8080 - R:/127.0.0.1:44030]
+17:49:23.205 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:23.209 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x8773942a, L:/127.0.0.1:8080 - R:/127.0.0.1:44032]
+17:49:23.210 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:23.214 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x1d360205, L:/127.0.0.1:8080 - R:/127.0.0.1:44034]
+17:49:23.217 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:23.224 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x86ec9fd6, L:/127.0.0.1:8080 - R:/127.0.0.1:44036]
+17:49:23.228 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:23.230 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x6c3938a7, L:/127.0.0.1:8080 - R:/127.0.0.1:44038]
+17:49:23.231 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:23.241 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x32c78738, L:/127.0.0.1:8080 - R:/127.0.0.1:44040]
+17:49:23.242 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:23.248 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x328eaf56, L:/127.0.0.1:8080 - R:/127.0.0.1:44042]
+17:49:23.248 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xafa3aa6c, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:49:54.212 [main] INFO  com.intuit.karate.netty.Main - ssl on, using existing files: cert.pem and key.pem
+17:49:56.658 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xac11924e] REGISTERED
+17:49:56.661 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xac11924e] BIND: 0.0.0.0/0.0.0.0:8080
+17:49:56.666 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - https://127.0.0.1:8080
+17:49:56.667 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xac11924e, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+17:50:03.662 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xac11924e, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x5fd789ea, L:/127.0.0.1:8080 - R:/127.0.0.1:44044]
+17:50:03.665 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xac11924e, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:50:08.960 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xac11924e, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x1e30627d, L:/127.0.0.1:8080 - R:/127.0.0.1:44046]
+17:50:08.961 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xac11924e, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:51:21.299 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xac11924e, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0x10101204, L:/127.0.0.1:8080 - R:/127.0.0.1:44062]
+17:51:21.300 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xac11924e, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:52:53.052 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xac11924e, L:/0:0:0:0:0:0:0:0:8080] READ: [id: 0xafd50e62, L:/127.0.0.1:8080 - R:/127.0.0.1:44064]
+17:52:53.053 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0xac11924e, L:/0:0:0:0:0:0:0:0:8080] READ COMPLETE
+17:56:29.049 [main] INFO  com.intuit.karate.netty.Main - ssl on, using existing files: cert.pem and key.pem
+17:56:31.476 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0x3811e827] REGISTERED
+17:56:31.479 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0x3811e827] BIND: 0.0.0.0/0.0.0.0:8080
+17:56:31.484 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - https://127.0.0.1:8080
+17:56:31.485 [nioEventLoopGroup-2-1] INFO  c.intuit.karate.netty.FeatureServer - [id: 0x3811e827, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
